@@ -1,7 +1,9 @@
-Raspberry Pi 40-pin <b>RTC-SHIM</b><br/>
+Raspberry Pi 40-pin <b>RTC-SHIM</b> mini-HAT<br/>
 Features:
 <ul>
+<li>DS3213 RTC chip</li>
+<li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
-<li>double-orientation Pi headers</li>
-<li>I2C bus celection</li>
+<li>double set of Pi headers (inside/outside mount)</li>
+<li>I2C0/1 bus selection</li>
 </ul>
