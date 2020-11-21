@@ -55847,8 +55847,8 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <text x="147.32" y="124.46" size="2.54" layer="94">Right connector
 (inside mount)</text>
 <text x="208.28" y="81.28" size="2.54" layer="94">I2C bus selection</text>
-<text x="210.82" y="63.5" size="2.54" layer="94">I2C1 is default
-connected</text>
+<text x="208.28" y="60.96" size="2.54" layer="94">I2C1 is connected
+by default</text>
 <text x="210.82" y="127" size="2.54" layer="94">Battery holder</text>
 </plain>
 <instances>
@@ -55906,11 +55906,11 @@ connected</text>
 </instance>
 <instance part="J1" gate="G$1" x="114.3" y="121.92" smashed="yes" rot="R180">
 <attribute name="VALUE" x="114.3" y="121.666" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="114.3" y="65.532" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="114.3" y="65.532" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="J2" gate="G$1" x="116.84" y="121.92" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="116.84" y="121.666" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="116.84" y="65.532" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="116.84" y="65.532" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="99.06" y="119.38" smashed="yes">
 <attribute name="VALUE" x="99.06" y="122.174" size="1.778" layer="96" align="bottom-center"/>
@@ -55926,11 +55926,11 @@ connected</text>
 </instance>
 <instance part="J3" gate="G$1" x="157.48" y="121.92" smashed="yes" rot="R180">
 <attribute name="VALUE" x="157.48" y="121.666" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="157.48" y="65.532" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="157.48" y="65.532" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="J4" gate="G$1" x="160.02" y="121.92" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="160.02" y="121.666" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="160.02" y="65.532" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="160.02" y="65.532" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="142.24" y="119.38" smashed="yes">
 <attribute name="VALUE" x="142.24" y="122.174" size="1.778" layer="96" align="bottom-center"/>
