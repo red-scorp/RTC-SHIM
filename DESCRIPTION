@@ -4,6 +4,7 @@ Features:
 <li>DS3213 RTC chip</li>
 <li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
-<li>double set of Pi headers (inside/outside mount)</li>
-<li>I2C0/1 bus selection</li>
+<li>double set of Pi headers (for inside and outside mount)</li>
+<li>I2C0/I2C1 bus selection</li>
+<li>can be used as SHIM (no headers) or HAT (with headers)</li>
 </ul>

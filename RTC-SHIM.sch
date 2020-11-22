@@ -9741,6 +9741,8 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <wire x1="7" y1="-5" x2="-7" y2="-5" width="0.127" layer="21"/>
 <wire x1="-7" y1="-5" x2="-7" y2="-8" width="0.127" layer="21"/>
 <wire x1="-7" y1="-8" x2="7" y2="-8" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -55838,8 +55840,9 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <sheet>
 <plain>
 <text x="256.54" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="198.12" y="7.62" size="2.54" layer="94">20201118-RTCSHIM-V1.0</text>
-<text x="165.1" y="27.94" size="2.54" layer="94">(c) Andriy Golovnya</text>
+<text x="198.12" y="7.62" size="2.54" layer="94">PI-RTCSHIM-0010</text>
+<text x="165.1" y="25.4" size="2.54" layer="94">Double-mount RTC-SHIM for Pi's 40-pin extension slot
+(c) Andriy Golovnya</text>
 <text x="43.18" y="139.7" size="2.54" layer="94">RTC chip</text>
 <text x="38.1" y="81.28" size="2.54" layer="94">Caps and pullups</text>
 <text x="104.14" y="124.46" size="2.54" layer="94">Left connector
