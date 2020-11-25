@@ -114,6 +114,14 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="160" name="tMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="161" name="bMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="162" name="tCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="163" name="bCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="164" name="tRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="165" name="bRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="167" name="Fiducials" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="169" name="internal" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -55791,6 +55799,286 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 </deviceset>
 </devicesets>
 </library>
+<library name="PiB_connectors">
+<packages>
+<package name="_MOLEX-89401_RA_PITCH-2MM" urn="urn:adsk.eagle:footprint:2971486/3" locally_modified="yes">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.6"/>
+<wire x1="-2.425" y1="0" x2="2.425" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="6.6" x2="-2.425" y2="2" width="0.127" layer="51"/>
+<wire x1="-2.425" y1="2" x2="2.425" y2="2" width="0.127" layer="51"/>
+<wire x1="2.425" y1="2" x2="2.425" y2="6.6" width="0.127" layer="51"/>
+<wire x1="3" y1="6.6" x2="0.375" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="6.6" x2="-3" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="6.6" x2="-0.375" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="5.5" x2="0.375" y2="5.5" width="0.127" layer="21"/>
+<wire x1="0.375" y1="5.5" x2="0.375" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1" x2="-2.425" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="-1" x2="-2.425" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1" x2="-3" y2="6.6" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="2.425" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.425" y1="-1" x2="2.425" y2="0" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="6.731" x2="-3.175" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-1.143" x2="3.175" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="3.175" y1="-1.143" x2="3.175" y2="6.731" width="0.127" layer="39"/>
+<wire x1="3.175" y1="6.731" x2="-3.175" y2="6.731" width="0.127" layer="39"/>
+<text x="0" y="-1.143" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="40"/>
+</package>
+<package name="_MOLEX-89400_VERT_PITCH-2MM" urn="urn:adsk.eagle:footprint:2972595/3" locally_modified="yes">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.6"/>
+<wire x1="-2.425" y1="2.45" x2="-2.425" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-2.425" y1="-1.2" x2="2.425" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="2.425" y1="-1.2" x2="2.425" y2="2.45" width="0.127" layer="51"/>
+<wire x1="3" y1="2.95" x2="-3" y2="2.95" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.7" x2="-3" y2="2.95" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.7" x2="3" y2="2.95" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.7" x2="-0.375" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="-1.7" x2="-0.375" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="-1.2" x2="0.375" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="0.375" y1="-1.2" x2="0.375" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="0.375" y1="-1.7" x2="3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="2.45" x2="2.425" y2="2.45" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="3.175" x2="-3.175" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="3.175" y1="-1.905" x2="3.175" y2="3.175" width="0.127" layer="39"/>
+<wire x1="3.175" y1="3.175" x2="-3.175" y2="3.175" width="0.127" layer="39"/>
+<text x="0" y="-1.905" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="40"/>
+</package>
+<package name="_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973709/2" locally_modified="yes">
+<pad name="1" x="-0.625" y="0" drill="0.5"/>
+<pad name="2" x="0.625" y="0" drill="0.5"/>
+<wire x1="-2.125" y1="-1.15" x2="2.125" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-1.15" x2="2.125" y2="2.05" width="0.127" layer="21"/>
+<wire x1="2.125" y1="2.05" x2="-2.125" y2="2.05" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="2.05" x2="-2.125" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="-1.525" y1="-0.75" x2="1.525" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.525" y1="-0.75" x2="1.525" y2="1.65" width="0.127" layer="51"/>
+<wire x1="1.525" y1="1.65" x2="-1.525" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-1.525" y1="1.65" x2="-1.525" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-2.286" y1="2.159" x2="-2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.286" y1="-1.27" x2="2.286" y2="2.159" width="0.127" layer="39"/>
+<wire x1="2.286" y1="2.159" x2="-2.286" y2="2.159" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.397" y1="-0.762" x2="1.397" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="0.762" x2="-1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="-1.397" y1="0.762" x2="-1.397" y2="-0.762" width="0.127" layer="40"/>
+</package>
+<package name="_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973710/2" locally_modified="yes">
+<pad name="1" x="-0.625" y="0" drill="0.5"/>
+<pad name="2" x="0.625" y="0" drill="0.5"/>
+<wire x1="-2.125" y1="-1.05" x2="-1.425" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-1.05" x2="2.125" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-1.05" x2="2.125" y2="4.45" width="0.127" layer="21"/>
+<wire x1="2.125" y1="4.45" x2="-2.125" y2="4.45" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="4.45" x2="-2.125" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-1.525" y1="0.95" x2="1.525" y2="0.95" width="0.127" layer="51"/>
+<wire x1="1.525" y1="0.95" x2="1.525" y2="4.45" width="0.127" layer="51"/>
+<wire x1="1.525" y1="4.45" x2="-1.525" y2="4.45" width="0.127" layer="51"/>
+<wire x1="-1.525" y1="4.45" x2="-1.525" y2="0.95" width="0.127" layer="51"/>
+<wire x1="-1.425" y1="-1.05" x2="-1.425" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="-0.6" x2="1.425" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-0.6" x2="1.425" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.143" x2="2.286" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="2.286" y1="-1.143" x2="2.286" y2="4.572" width="0.127" layer="39"/>
+<wire x1="2.286" y1="4.572" x2="-2.286" y2="4.572" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="4.572" x2="-2.286" y2="-1.143" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.143" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.397" y1="-0.762" x2="1.397" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="0.762" x2="-1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="-1.397" y1="0.762" x2="-1.397" y2="-0.762" width="0.127" layer="40"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="BATTERY_MOLEX-" urn="urn:adsk.eagle:package:2971487/4" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_MOLEX-89401_RA_PITCH-2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="BATTERY_MOLEX-89401_VERT_PITCH-2MM" urn="urn:adsk.eagle:package:2972596/4" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_MOLEX-89400_VERT_PITCH-2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="BATTERY_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973718/3" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_MOLEX-0530470210_VERT_PITCH-1.25MM"/>
+</packageinstances>
+</package3d>
+<package3d name="BATTERY_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973719/3" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_MOLEX-0530480210_RA_PITCH-1.25MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="1X02">
+<pin name="1" x="7.62" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<text x="3.556" y="-5.588" size="0.635" layer="96" font="vector" ratio="10" align="top-right">&gt;VALUE</text>
+<text x="3.556" y="3.048" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X02_MOLEX" prefix="LIPO" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="1X02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_89401_RA-MALE_PITCH-2MM" package="_MOLEX-89401_RA_PITCH-2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2971487/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/894010210_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/873690200_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/502128000_sd.pdf" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM14854-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM10118-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM4561CT-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM14854-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM10118-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM4561CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0894010210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="0873690200" constant="no"/>
+<attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
+<attribute name="VALUE" value="Molex RA 2mm pitch" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_89400_VERT-MALE_PITCH-2MM" package="_MOLEX-89400_VERT_PITCH-2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2972596/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/894000220_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/873690200_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/502128000_sd.pdf" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM4340-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM10118-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM4561CT-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM4340-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM10118-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM4561CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0894000220" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="0873690200" constant="no"/>
+<attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
+<attribute name="VALUE" value="Molex VERT 2mm pitch" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0530470210_VERT-MALE_PITCH-1.25MM" package="_MOLEX-0530470210_VERT_PITCH-1.25MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2973718/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/530470210_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1731-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1731-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0530470210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" constant="no"/>
+<attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
+<attribute name="VALUE" value="Molex VERT 1.25mm pitch" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0530480210_RA-MALE_PITCH-1.25MM" package="_MOLEX-0530480210_RA_PITCH-1.25MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2973719/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_CONNECTOR1" value="53048-0210" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1742-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1742-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0530480210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" constant="no"/>
+<attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
+<attribute name="VALUE" value="Molex RA 1.25mm pitch" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -55835,6 +56123,8 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="LOGO1" library="_my_logos" deviceset="MFDECLOGO" device="_SQ_8MM" value="MFDECLOGO_SQ_8MM"/>
 <part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_20MM" value="MFDECLOGO_L_20MM"/>
 <part name="LOGO3" library="_my_logos" deviceset="RSNURL" device="_QR_10MM"/>
+<part name="LIPO1" library="PiB_connectors" deviceset="1X02_MOLEX" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/3" value="Molex VERT 1.25mm pitch"/>
+<part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -55956,7 +56246,7 @@ by default</text>
 <attribute name="VALUE" x="243.205" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="BAT1" gate="G$1" x="220.98" y="116.84" smashed="yes">
-<attribute name="NAME" x="218.44" y="121.92" size="1.778" layer="96"/>
+<attribute name="NAME" x="218.44" y="119.38" size="1.778" layer="96"/>
 <attribute name="VALUE" x="215.9" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="231.14" y="114.3" smashed="yes">
@@ -55965,6 +56255,13 @@ by default</text>
 <instance part="LOGO1" gate="G$1" x="134.62" y="2.54" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="134.62" y="12.7" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="139.7" y="22.86" smashed="yes"/>
+<instance part="LIPO1" gate="G$1" x="226.06" y="101.6" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="222.504" y="96.012" size="0.635" layer="96" font="vector" ratio="10" rot="MR0" align="top-right"/>
+<attribute name="NAME" x="222.504" y="104.648" size="1.778" layer="95" ratio="10" rot="MR0" align="bottom-right"/>
+</instance>
+<instance part="GND11" gate="1" x="213.36" y="96.52" smashed="yes">
+<attribute name="VALUE" x="213.36" y="96.266" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -55979,6 +56276,11 @@ by default</text>
 <pinref part="BAT1" gate="G$1" pin="BAT+"/>
 <wire x1="218.44" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
 <label x="208.28" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LIPO1" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
+<label x="208.28" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -56198,6 +56500,11 @@ by default</text>
 <pinref part="BAT1" gate="G$1" pin="BAT-"/>
 <wire x1="226.06" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LIPO1" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL0" class="0">

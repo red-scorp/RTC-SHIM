@@ -114,6 +114,14 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="160" name="tMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="161" name="bMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="162" name="tCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="163" name="bCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="164" name="tRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="165" name="bRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="167" name="Fiducials" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="169" name="internal" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -12303,6 +12311,39 @@ CONN_20
 </package>
 </packages>
 </library>
+<library name="PiB_connectors">
+<packages>
+<package name="_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973709/2" locally_modified="yes">
+<pad name="1" x="-0.625" y="0" drill="0.5"/>
+<pad name="2" x="0.625" y="0" drill="0.5"/>
+<wire x1="-2.125" y1="-1.15" x2="2.125" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-1.15" x2="2.125" y2="2.05" width="0.127" layer="21"/>
+<wire x1="2.125" y1="2.05" x2="-2.125" y2="2.05" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="2.05" x2="-2.125" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="-1.525" y1="-0.75" x2="1.525" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.525" y1="-0.75" x2="1.525" y2="1.65" width="0.127" layer="51"/>
+<wire x1="1.525" y1="1.65" x2="-1.525" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-1.525" y1="1.65" x2="-1.525" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-2.286" y1="2.159" x2="-2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.286" y1="-1.27" x2="2.286" y2="2.159" width="0.127" layer="39"/>
+<wire x1="2.286" y1="2.159" x2="-2.286" y2="2.159" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.397" y1="-0.762" x2="1.397" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="0.762" x2="-1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="-1.397" y1="0.762" x2="-1.397" y2="-0.762" width="0.127" layer="40"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="BATTERY_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973718/3" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_MOLEX-0530470210_VERT_PITCH-1.25MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12559,6 +12600,28 @@ design rules under a new name.</description>
 <element name="LOGO1" library="_my_logos" package="MFDEC_SQ_8MM" value="MFDECLOGO_SQ_8MM" x="7.62" y="39.37" smashed="yes"/>
 <element name="LOGO2" library="_my_logos" package="MFDEC_L_20MM" value="MFDECLOGO_L_20MM" x="-0.254" y="-4.572" smashed="yes" rot="MR90"/>
 <element name="LOGO3" library="_my_logos" package="RSNURL_QR_10MM" value="RSNURL_QR_10MM" x="17.78" y="39.37" smashed="yes" rot="MR0"/>
+<element name="LIPO1" library="PiB_connectors" package="_MOLEX-0530470210_VERT_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/3" value="Molex VERT 1.25mm pitch" x="18.161" y="2.286" smashed="yes" rot="R180">
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/530470210_sd.pdf" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1731-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1731-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST_CRIMP" value="Digikey" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN_CONNECTOR1" value="0530470210" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN_CRIMP" value="0500798000" x="18.161" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.034" y="3.81" size="0.6096" layer="25" font="vector"/>
+<attribute name="VALUE" x="18.161" y="1.524" size="0.25" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT">
@@ -12571,6 +12634,11 @@ design rules under a new name.</description>
 <via x="14.859" y="18.288" extent="1-16" drill="0.35"/>
 <wire x1="14.859" y1="18.288" x2="12.828" y2="18.288" width="0.254" layer="1"/>
 <wire x1="12.828" y1="18.288" x2="12.7" y2="18.16" width="0.254" layer="1"/>
+<contactref element="LIPO1" pad="1"/>
+<wire x1="14.859" y1="18.288" x2="15.738" y2="17.409" width="0.254" layer="16"/>
+<wire x1="15.738" y1="17.409" x2="15.738" y2="5.588" width="0.254" layer="16"/>
+<wire x1="18.786" y1="2.54" x2="18.786" y2="2.286" width="0.254" layer="16"/>
+<wire x1="18.786" y1="2.54" x2="15.738" y2="5.588" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="IC1" pad="16"/>
@@ -12721,7 +12789,7 @@ design rules under a new name.</description>
 <via x="12.7" y="8.636" extent="1-16" drill="0.35"/>
 <via x="10.795" y="14.224" extent="1-16" drill="0.35"/>
 <via x="6.477" y="9.398" extent="1-16" drill="0.35"/>
-<via x="19.05" y="8.001" extent="1-16" drill="0.35"/>
+<via x="19.05" y="5.588" extent="1-16" drill="0.35"/>
 <wire x1="19.431" y1="46.863" x2="19.431" y2="46.99" width="0.254" layer="16"/>
 <via x="10.033" y="26.162" extent="1-16" drill="0.35"/>
 <via x="15.621" y="26.416" extent="1-16" drill="0.35"/>
@@ -12778,6 +12846,9 @@ design rules under a new name.</description>
 <via x="22.86" y="27.94" extent="1-16" drill="0.35"/>
 <via x="11.176" y="38.735" extent="1-16" drill="0.35"/>
 <via x="15.494" y="29.972" extent="1-16" drill="0.35"/>
+<contactref element="LIPO1" pad="2"/>
+<via x="14.986" y="6.477" extent="1-16" drill="0.35"/>
+<via x="17.018" y="10.795" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="SCL0">
 <contactref element="J2" pad="14"/>
