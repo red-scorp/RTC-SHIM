@@ -204,6 +204,7 @@ http://redscorp.net</text>
 <wire x1="2.794" y1="17.78" x2="3.048" y2="17.526" width="0.1524" layer="22"/>
 <wire x1="3.048" y1="17.526" x2="3.048" y2="18.034" width="0.1524" layer="22"/>
 <wire x1="3.048" y1="18.034" x2="2.794" y2="17.78" width="0.1524" layer="22"/>
+<circle x="17.399" y="9.652" radius="0.127" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="CR1220-2">
