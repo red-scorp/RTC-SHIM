@@ -10,6 +10,7 @@ Features:
 - double set of Pi headers (for inside and outside mount)
 - I2C0/I2C1 bus selection
 - can be used as SHIM (no headers) or HAT (with headers)
+- optional external notebook BIOS battery connector
 
 Raspberry Pi **RTC-mini-flip-SHIM** micro-HAT.
 
@@ -20,5 +21,6 @@ Features:
 - double mount on Pi headers (for inside and outside mount)
 - very small size
 - fits on 26- and 40-pin Pi headers
+- optional external notebook BIOS battery connector (two side mount)
 
 CAM files are available.
