@@ -3224,6 +3224,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.319" y="6.4262" size="0.5" layer="26" font="vector" ratio="10" rot="MR180" align="top-center"/>
 <attribute name="VALUE" x="12.319" y="4.3942" size="0.25" layer="28" font="vector" ratio="10" rot="MR180" align="bottom-center"/>
 </element>
+<element name="LIPO2" library="PiB_connectors" package="_MOLEX-0530470210_VERT_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/3" value="Molex VERT 1.25mm pitch" x="12.319" y="5.1562" smashed="yes">
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/530470210_sd.pdf" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1731-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1731-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="DIST_CRIMP" value="Digikey" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MPN_CONNECTOR1" value="0530470210" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="MPN_CRIMP" value="0500798000" x="12.319" y="5.1562" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.319" y="3.8862" size="0.5" layer="25" font="vector" ratio="10" align="top-center"/>
+<attribute name="VALUE" x="12.319" y="5.9182" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT">
@@ -3236,6 +3258,7 @@ design rules under a new name.</description>
 <wire x1="11.684" y1="5.1662" x2="11.694" y2="5.1562" width="0.254" layer="16"/>
 <wire x1="11.694" y1="5.1562" x2="11.694" y2="3.293" width="0.254" layer="16"/>
 <wire x1="11.694" y1="3.293" x2="12.7" y2="2.287" width="0.254" layer="16"/>
+<contactref element="LIPO2" pad="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="IC1" pad="16"/>
@@ -3346,6 +3369,7 @@ design rules under a new name.</description>
 <via x="8.001" y="4.826" extent="1-16" drill="0.35"/>
 <via x="14.4272" y="19.7104" extent="1-16" drill="0.35"/>
 <contactref element="LIPO1" pad="2"/>
+<contactref element="LIPO2" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -3363,6 +3387,11 @@ design rules under a new name.</description>
 <approved hash="7,39,40739a52afaf5af6"/>
 <approved hash="4,1,13624ed8db50064a"/>
 <approved hash="4,16,13624ed8db50064a"/>
+<approved hash="2,20,132312a526c12747"/>
+<approved hash="2,20,112c10abe8cfe948"/>
+<approved hash="7,39,617ff3c0add53712"/>
+<approved hash="7,39,617ff3c0ab8a6e78"/>
+<approved hash="7,39,018bc69db6146e7c"/>
 </errors>
 </board>
 </drawing>

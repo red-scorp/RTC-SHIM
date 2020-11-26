@@ -29134,6 +29134,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="LOGO1" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM"/>
 <part name="LIPO1" library="PiB_connectors" deviceset="1X02_MOLEX" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/3" value="Molex VERT 1.25mm pitch"/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="LIPO2" library="PiB_connectors" deviceset="1X02_MOLEX" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/3" value="Molex VERT 1.25mm pitch"/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29229,6 +29231,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND11" gate="1" x="213.36" y="93.98" smashed="yes">
 <attribute name="VALUE" x="213.36" y="93.726" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="LIPO2" gate="G$1" x="226.06" y="83.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="222.504" y="78.232" size="0.635" layer="96" font="vector" ratio="10" rot="MR0" align="top-right"/>
+<attribute name="NAME" x="222.504" y="86.868" size="1.778" layer="95" ratio="10" rot="MR0" align="bottom-right"/>
+</instance>
+<instance part="GND6" gate="1" x="213.36" y="78.74" smashed="yes">
+<attribute name="VALUE" x="213.36" y="78.486" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29248,6 +29257,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="LIPO1" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <label x="208.28" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LIPO2" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="208.28" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -29388,6 +29402,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="LIPO1" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LIPO2" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>
