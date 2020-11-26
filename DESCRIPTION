@@ -1,4 +1,4 @@
-Raspberry Pi 40-pin <b>RTC-SHIM</b> mini-HAT<br/>
+Raspberry Pi 40-pin <b>RTC-SHIM</b> mini-HAT.<br/>
 Features:
 <ul>
 <li>DS3213 RTC chip</li>
@@ -9,7 +9,7 @@ Features:
 <li>can be used as SHIM (no headers) or HAT (with headers)</li>
 </ul>
 
-Raspberry Pi <b>RTC-mini-flip-SHIM</b> micro-HAT
+Raspberry Pi <b>RTC-mini-flip-SHIM</b> micro-HAT.<br/>
 Features:
 <ul>
 <li>DS3213 RTC chip</li>
