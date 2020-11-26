@@ -1,5 +1,5 @@
 # RTC-SHIM
-My Raspberry Pi's RTC-SHIM hobby project.
+My RTC-SHIM (mini-HAT) for Raspberry Pi hobby project.
 
 Raspberry Pi 40-pin **RTC-SHIM** mini-HAT.
 
