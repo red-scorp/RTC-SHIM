@@ -3,6 +3,8 @@ My RTC-SHIM (mini-HAT) for Raspberry Pi hobby project.
 
 Raspberry Pi 40-pin **RTC-SHIM** mini-HAT.
 
+![RTC-SHIM preview](RTC-SHIM.png)
+
 Features:
 - DS3213 RTC chip
 - CR1220 3V battery
@@ -13,6 +15,8 @@ Features:
 - optional external notebook BIOS battery connector
 
 Raspberry Pi **RTC-mini-flip-SHIM** micro-HAT.
+
+![RTC-mini-flip-SHIM preview](RTC-mini-flip-SHIM.png)
 
 Features: 
 - DS3213 RTC chip
