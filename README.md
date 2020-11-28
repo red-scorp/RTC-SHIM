@@ -35,6 +35,8 @@ Preview:
 
 ![RTC-SHIM preview](RTC-SHIM.png)
 
+[Schematics in PDF Format](RTC-SHIM.pdf)
+
 Features:
 - DS3213 RTC chip
 - CR1220 3V battery
@@ -51,6 +53,8 @@ Raspberry Pi **RTC-mini-flip-SHIM** micro-HAT.
 Preview:
 
 ![RTC-mini-flip-SHIM preview](RTC-mini-flip-SHIM.png)
+
+[Schematics in PDF Format](RTC-mini-flip-SHIM.pdf)
 
 Features: 
 - DS3213 RTC chip
