@@ -67,6 +67,21 @@ Features:
 
 CAM files are available.
 
+## BOM
+
+Bill Of Materials is currentply avalable only for LCSC Electronic Components Distributor.
+
+### LCSC BOM
+
+|Designator  |Part/Value |Package/Footprint     |LCSC # |
+|------------|-----------|----------------------|-------|
+|BAT1        |CR1220-2   |SMD                   |C70381 |
+|C1          |Cap. 100nF |0402                  |C1525  |
+|C2          |Cap. 1uF   |0603                  |C15849 |
+|IC1         |DS3231M+TRL|SOIC-16_7.5x10.3x1.27P|C37663 |
+|LIPO1, LIPO2|A1251WV-2P |Through Hole,P=1.25mm |C225090|
+|R1, R2      |Res. 10K   |0402                  |C25744 |
+
 ## How to help
 
 Your contributions as code, resources or finances are welcome!
