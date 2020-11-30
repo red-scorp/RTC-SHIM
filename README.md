@@ -69,7 +69,7 @@ CAM files are available.
 
 ## BOM
 
-Bill Of Materials is currentply avalable only for LCSC Electronic Components Distributor.
+Bill Of Materials is currently avalable only for LCSC Electronic Components Distributor, which is probably cheapest anyway.
 
 ### LCSC BOM
 
