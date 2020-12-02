@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -187,7 +187,7 @@
 <wire x1="2.54" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="22" curve="-90"/>
 <wire x1="1.27" y1="20.32" x2="2.54" y2="19.05" width="0.1524" layer="22" curve="-90"/>
 <rectangle x1="0" y1="17.78" x2="2.54" y2="20.32" layer="22"/>
-<text x="13.843" y="0.254" size="1.016" layer="21" font="vector" ratio="12">RTC
+<text x="15.875" y="0.254" size="1.016" layer="21" font="vector" ratio="24" align="bottom-center">RTC
 mini
 flip
 SHIM
@@ -205,6 +205,25 @@ http://redscorp.net</text>
 <wire x1="3.048" y1="17.526" x2="3.048" y2="18.034" width="0.1524" layer="22"/>
 <wire x1="3.048" y1="18.034" x2="2.794" y2="17.78" width="0.1524" layer="22"/>
 <circle x="17.399" y="9.652" radius="0.127" width="0.1524" layer="21"/>
+<text x="4.445" y="17.526" size="0.6096" layer="21" font="vector" ratio="12">2</text>
+<text x="1.905" y="14.986" size="0.6096" layer="21" font="vector" ratio="12">3</text>
+<text x="4.445" y="14.986" size="0.6096" layer="21" font="vector" ratio="12">4</text>
+<text x="1.905" y="12.446" size="0.6096" layer="21" font="vector" ratio="12">5</text>
+<text x="4.445" y="12.446" size="0.6096" layer="21" font="vector" ratio="12">6</text>
+<text x="1.905" y="9.906" size="0.6096" layer="21" font="vector" ratio="12">7</text>
+<text x="4.445" y="9.906" size="0.6096" layer="21" font="vector" ratio="12">8</text>
+<text x="1.905" y="7.366" size="0.6096" layer="21" font="vector" ratio="12">9</text>
+<text x="4.064" y="7.366" size="0.6096" layer="21" font="vector" ratio="12">10</text>
+<text x="1.524" y="4.826" size="0.6096" layer="21" font="vector" ratio="12">11</text>
+<text x="4.064" y="4.826" size="0.6096" layer="21" font="vector" ratio="12">12</text>
+<text x="1.524" y="2.286" size="0.6096" layer="21" font="vector" ratio="12">13</text>
+<text x="4.064" y="2.286" size="0.6096" layer="21" font="vector" ratio="12">14</text>
+<text x="0.635" y="14.986" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">3</text>
+<text x="0.635" y="12.446" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">5</text>
+<text x="0.635" y="9.906" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">7</text>
+<text x="0.635" y="7.366" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">9</text>
+<text x="1.016" y="4.826" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">11</text>
+<text x="1.016" y="2.286" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">13</text>
 </plain>
 <libraries>
 <library name="CR1220-2">
