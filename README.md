@@ -25,7 +25,7 @@ Some useful link:
 - [RPI_RTC_Module_SKU:EP-0016](https://wiki.52pi.com/index.php/RPI_RTC_Module_SKU:EP-0016) - some RTC schematics and setup info.
 - [Raspberry Pi RTC: Adding a Real Time Clock](https://pimylifeup.com/raspberry-pi-rtc/) - RTC setup info.
 
-And gradually I came out with few designs presented here.
+And gradually I came with few designs presented here.
 
 ## RTC-SHIM
 
@@ -35,7 +35,7 @@ Preview:
 
 ![RTC-SHIM preview](RTC-SHIM.png)
 
-[Schematics in PDF Format](RTC-SHIM.pdf)
+[Schematics in PDF format](RTC-SHIM.pdf)
 
 Features:
 - DS3213 RTC chip
@@ -54,7 +54,7 @@ Preview:
 
 ![RTC-mini-flip-SHIM preview](RTC-mini-flip-SHIM.png)
 
-[Schematics in PDF Format](RTC-mini-flip-SHIM.pdf)
+[Schematics in PDF format](RTC-mini-flip-SHIM.pdf)
 
 Features: 
 - DS3213 RTC chip
