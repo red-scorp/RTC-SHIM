@@ -38,6 +38,7 @@ Preview:
 [Schematics in PDF format](RTC-SHIM.pdf)
 
 Features:
+
 - DS3213 RTC chip
 - CR1220 3V battery
 - locked Pi headers
@@ -56,7 +57,8 @@ Preview:
 
 [Schematics in PDF format](RTC-mini-flip-SHIM.pdf)
 
-Features: 
+Features:
+
 - DS3213 RTC chip
 - CR1220 3V battery
 - locked Pi headers
