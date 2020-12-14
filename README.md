@@ -40,6 +40,7 @@ Preview:
 Features:
 
 - DS3213 RTC chip
+- double footprint for larger and smaller versions of the chip.
 - CR1220 3V battery
 - locked Pi headers
 - double set of Pi headers (for inside and outside mount)
@@ -60,6 +61,7 @@ Preview:
 Features:
 
 - DS3213 RTC chip
+- double footprint for larger and smaller versions of the chip.
 - CR1220 3V battery
 - locked Pi headers
 - double mount on Pi headers (for inside and outside mount)
