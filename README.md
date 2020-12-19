@@ -40,13 +40,15 @@ Preview:
 Features:
 
 - DS3213 RTC chip
-- double footprint for larger and smaller versions of the chip.
+- double footprint for larger and smaller versions of the chip
 - CR1220 3V battery
 - locked Pi headers
 - double set of Pi headers (for inside and outside mount)
 - I2C0/I2C1 bus selection
 - can be used as SHIM (no headers) or HAT (with headers)
 - optional external notebook BIOS battery connector
+
+CAM files are available.
 
 ## RTC-mini-flip-SHIM
 
@@ -61,7 +63,7 @@ Preview:
 Features:
 
 - DS3213 RTC chip
-- double footprint for larger and smaller versions of the chip.
+- double footprint for larger and smaller versions of the chip
 - CR1220 3V battery
 - locked Pi headers
 - double mount on Pi headers (for inside and outside mount)
