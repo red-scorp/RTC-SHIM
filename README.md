@@ -69,7 +69,30 @@ Features:
 - double mount on Pi headers (for inside and outside mount)
 - very small size
 - fits on 26- and 40-pin Pi headers
-- optional external notebook BIOS battery connector (two side mount)
+- optional external notebook BIOS battery connector (both side mount possible)
+
+CAM files are available.
+
+## RTC-zero-SHIM
+
+Raspberry Pi **RTC-zero-SHIM** mini-HAT.
+
+Preview:
+
+![RTC-zero-SHIM preview](RTC-zero-SHIM.png)
+
+[Schematics in PDF format](RTC-zero-SHIM.pdf)
+
+Features:
+
+- DS3213 RTC chip
+- double footprint for larger and smaller versions of the chip
+- CR1220 3V battery
+- locked Pi headers
+- Pi zero board style
+- I2C0/I2C1 bus selection
+- can be used as SHIM (no headers) or HAT (with headers)
+- optional external notebook BIOS battery connector
 
 CAM files are available.
 
@@ -82,6 +105,7 @@ Bill Of Materials is currently available only for LCSC Electronic Components Dis
 |Designator  |Part/Value  |Package/Footprint     |LCSC # |
 |------------|------------|----------------------|-------|
 |BAT1        |CR1220-2    |SMD                   |C70381 |
+|BAT2        |BS-8-1      |SMD                   |C70378 |
 |C1          |Cap. 100nF  |0402                  |C1525  |
 |C2          |Cap. 1uF    |0603                  |C15849 |
 |IC1\*       |DS3231SN#T&R|SOIC-16_300mil        |C9866  |

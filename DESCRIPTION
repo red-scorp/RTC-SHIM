@@ -2,6 +2,7 @@ Raspberry Pi 40-pin <b>RTC-SHIM</b> mini-HAT.<br/>
 Features:
 <ul>
 <li>DS3213 RTC chip</li>
+<li>double footprint for larger and smaller versions of the chip</li>
 <li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
 <li>double set of Pi headers (for inside and outside mount)</li>
@@ -14,10 +15,24 @@ Raspberry Pi <b>RTC-mini-flip-SHIM</b> micro-HAT.<br/>
 Features:
 <ul>
 <li>DS3213 RTC chip</li>
+<li>double footprint for larger and smaller versions of the chip</li>
 <li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
 <li>double mount on Pi headers (for inside and outside mount)</li>
 <li>very small size</li>
 <li>fits on 26- and 40-pin Pi headers</li>
-<li>optional external notebook BIOS battery connector (two side mount)</li>
+<li>optional external notebook BIOS battery connector (both side mount possible)</li>
+</ul>
+
+Raspberry Pi zero 40-pin <b>RTC-zero-SHIM</b> mini-HAT.<br/>
+Features:
+<ul>
+<li>DS3213 RTC chip</li>
+<li>double footprint for larger and smaller versions of the chip</li>
+<li>CR1220 3V battery</li>
+<li>locked Pi headers</li>
+<li>Pi zero board style</li>
+<li>I2C0/I2C1 bus selection</li>
+<li>can be used as SHIM (no headers) or HAT (with headers)</li>
+<li>optional external notebook BIOS battery connector</li>
 </ul>
