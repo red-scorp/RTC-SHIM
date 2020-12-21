@@ -29,7 +29,7 @@ Features:
 <ul>
 <li>DS3213 RTC chip</li>
 <li>double footprint for larger and smaller versions of the chip</li>
-<li>CR1220 3V battery</li>
+<li>CR2032 3V battery</li>
 <li>locked Pi headers</li>
 <li>Pi zero board style</li>
 <li>I2C0/I2C1 bus selection</li>
