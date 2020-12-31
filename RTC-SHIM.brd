@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -14414,16 +14414,18 @@ design rules under a new name.</description>
 <wire x1="21.7678" y1="29.21" x2="21.082" y2="29.21" width="0.4064" layer="1"/>
 <wire x1="21.082" y1="29.21" x2="19.812" y2="27.94" width="0.4064" layer="1"/>
 <wire x1="19.812" y1="27.94" x2="18.56789375" y2="27.94" width="0.4064" layer="1"/>
-<wire x1="10.033" y1="27.305" x2="10.668" y2="27.94" width="0.4064" layer="1"/>
-<wire x1="13.36510625" y1="27.94" x2="10.668" y2="27.94" width="0.4064" layer="1"/>
+<wire x1="12.1666" y1="27.9146" x2="11.557" y2="27.305" width="0.4064" layer="1"/>
+<wire x1="10.033" y1="27.305" x2="11.557" y2="27.305" width="0.4064" layer="1"/>
+<wire x1="13.39050625" y1="27.9146" x2="12.1666" y2="27.9146" width="0.4064" layer="1"/>
 <wire x1="18.54249375" y1="27.9146" x2="13.39050625" y2="27.9146" width="0.254" layer="1"/>
-<wire x1="13.39050625" y1="27.9146" x2="13.36510625" y2="27.94" width="0.254" layer="1"/>
 <wire x1="18.56789375" y1="27.94" x2="18.54249375" y2="27.9146" width="0.254" layer="1"/>
-<wire x1="11.43" y1="33.64" x2="10.1862" y2="33.64" width="0.4064" layer="1"/>
-<wire x1="10.1862" y1="33.64" x2="9.9862" y2="33.44" width="0.4064" layer="1"/>
-<via x="9.9862" y="33.44" extent="1-16" drill="0.35"/>
-<wire x1="8.89" y1="33.44" x2="9.9862" y2="33.44" width="0.4064" layer="1"/>
-<wire x1="9.9862" y1="33.44" x2="9.9862" y2="29.972" width="0.4064" layer="16"/>
+<wire x1="11.43" y1="33.64" x2="11.303" y2="33.767" width="0.4064" layer="1"/>
+<wire x1="11.303" y1="33.767" x2="9.9894" y2="33.767" width="0.4064" layer="1"/>
+<wire x1="9.9894" y1="33.767" x2="9.9862" y2="33.7702" width="0.4064" layer="1"/>
+<via x="9.9862" y="33.7702" extent="1-16" drill="0.35"/>
+<wire x1="9.9862" y1="33.7702" x2="9.2202" y2="33.7702" width="0.4064" layer="1"/>
+<wire x1="8.89" y1="33.44" x2="9.2202" y2="33.7702" width="0.4064" layer="1"/>
+<wire x1="9.9862" y1="33.7702" x2="9.9862" y2="29.972" width="0.4064" layer="16"/>
 <wire x1="9.9862" y1="29.972" x2="9.9862" y2="27.351796875" width="0.4064" layer="16"/>
 <wire x1="9.9862" y1="27.351796875" x2="10.033" y2="27.305" width="0.4064" layer="16"/>
 <via x="10.033" y="27.305" extent="1-16" drill="0.35"/>
@@ -14432,7 +14434,7 @@ design rules under a new name.</description>
 <wire x1="11.58" y1="33.79" x2="13.97" y2="33.79" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="33.79" x2="16.51" y2="33.79" width="0.4064" layer="1"/>
 <wire x1="10.033" y1="48.2346" x2="9.9862" y2="48.1878" width="0.4064" layer="16"/>
-<wire x1="9.9862" y1="48.1878" x2="9.9862" y2="33.44" width="0.4064" layer="16"/>
+<wire x1="9.9862" y1="48.1878" x2="9.9862" y2="33.7702" width="0.4064" layer="16"/>
 <via x="10.033" y="48.2346" extent="1-16" drill="0.35"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="IC2" pad="2"/>
