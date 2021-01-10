@@ -22,6 +22,7 @@ I've searched Internet and found no solution which suits my needs.
 Some useful links:
 
 - [pinout.xyz](https://pinout.xyz/) - a brilliant resource on topic of Pi's pinout and HATs.
+- [raspberrypi/hats](https://github.com/raspberrypi/hats) - Pi's HAT specification.
 - [RPI_RTC_Module_SKU:EP-0016](https://wiki.52pi.com/index.php/RPI_RTC_Module_SKU:EP-0016) - some RTC schematics and setup info.
 - [Raspberry Pi RTC: Adding a Real Time Clock](https://pimylifeup.com/raspberry-pi-rtc/) - RTC setup info.
 
