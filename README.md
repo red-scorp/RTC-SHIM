@@ -1,6 +1,6 @@
 # RTC-SHIM project
 
-My RTC-SHIM (mini-HAT) for Raspberry Pi.
+RTC-SHIM (mini-HAT), a DS3231 battery driven real-time clock for Raspberry Pi.
 
 "How did it come to this?" you may ask.
 The answer is simple.
@@ -40,7 +40,7 @@ Preview:
 
 Features:
 
-- DS3213 RTC chip
+- DS3231 RTC chip
 - double footprint for larger and smaller versions of the chip
 - CR1220 3V battery
 - locked Pi headers
@@ -63,7 +63,7 @@ Preview:
 
 Features:
 
-- DS3213 RTC chip
+- DS3231 RTC chip
 - double footprint for larger and smaller versions of the chip
 - CR1220 3V battery
 - locked Pi headers
@@ -86,7 +86,7 @@ Preview:
 
 Features:
 
-- DS3213 RTC chip
+- DS3231 RTC chip
 - double footprint for larger and smaller versions of the chip
 - CR2032 3V battery
 - locked Pi headers

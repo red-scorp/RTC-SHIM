@@ -1,7 +1,7 @@
 Raspberry Pi 40-pin <b>RTC-SHIM</b> mini-HAT.<br/>
 Features:
 <ul>
-<li>DS3213 RTC chip</li>
+<li>DS3231 RTC chip</li>
 <li>double footprint for larger and smaller versions of the chip</li>
 <li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
@@ -14,7 +14,7 @@ Features:
 Raspberry Pi <b>RTC-mini-flip-SHIM</b> micro-HAT.<br/>
 Features:
 <ul>
-<li>DS3213 RTC chip</li>
+<li>DS3231 RTC chip</li>
 <li>double footprint for larger and smaller versions of the chip</li>
 <li>CR1220 3V battery</li>
 <li>locked Pi headers</li>
@@ -27,7 +27,7 @@ Features:
 Raspberry Pi zero 40-pin <b>RTC-zero-SHIM</b> mini-HAT.<br/>
 Features:
 <ul>
-<li>DS3213 RTC chip</li>
+<li>DS3231 RTC chip</li>
 <li>double footprint for larger and smaller versions of the chip</li>
 <li>CR2032 3V battery</li>
 <li>locked Pi headers</li>
