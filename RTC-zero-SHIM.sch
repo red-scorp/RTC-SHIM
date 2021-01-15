@@ -55530,6 +55530,55 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 </deviceset>
 </devicesets>
 </library>
+<library name="CR1220-2">
+<packages>
+<package name="CR1220-2">
+<circle x="0" y="0" radius="7.5" width="0.127" layer="21"/>
+<hole x="0" y="3.6" drill="1.2"/>
+<hole x="0" y="-3.9" drill="1.2"/>
+<smd name="BAT-" x="0" y="8" dx="2.3" dy="4" layer="1"/>
+<smd name="BAT+" x="0" y="-8" dx="2.3" dy="4.4" layer="1"/>
+<wire x1="7" y1="-8" x2="7" y2="-5" width="0.127" layer="21"/>
+<wire x1="7" y1="-5" x2="-7" y2="-5" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5" x2="-7" y2="-8" width="0.127" layer="21"/>
+<wire x1="-7" y1="-8" x2="7" y2="-8" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CR1220-2">
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<pin name="BAT+" x="-2.54" y="0" visible="off" length="short" direction="pwr"/>
+<pin name="BAT-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.27" y="2.032" size="1.27" layer="94">+</text>
+<text x="1.27" y="2.032" size="1.27" layer="94">-</text>
+<text x="-2.54" y="5.08" size="1.778" layer="96">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CR1220-2" prefix="BAT">
+<gates>
+<gate name="G$1" symbol="CR1220-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CR1220-2">
+<connects>
+<connect gate="G$1" pin="BAT+" pad="BAT+"/>
+<connect gate="G$1" pin="BAT-" pad="BAT-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -55574,6 +55623,8 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="LOGO4" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM" value="MFDECLOGO_L_10MM"/>
+<part name="BAT1" library="CR1220-2" deviceset="CR1220-2" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -55589,7 +55640,7 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <text x="208.28" y="81.28" size="2.54" layer="94">I2C bus selection</text>
 <text x="208.28" y="60.96" size="2.54" layer="94">I2C1 is connected
 by default</text>
-<text x="210.82" y="127" size="2.54" layer="94">Battery holder</text>
+<text x="210.82" y="137.16" size="2.54" layer="94">Battery holder</text>
 <text x="38.1" y="99.06" size="2.54" layer="94">Alternative footprint</text>
 </plain>
 <instances>
@@ -55701,6 +55752,13 @@ by default</text>
 <attribute name="VALUE" x="66.04" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="106.68" y="2.54" smashed="yes"/>
+<instance part="BAT1" gate="G$1" x="220.98" y="129.54" smashed="yes">
+<attribute name="NAME" x="218.44" y="132.08" size="1.778" layer="96"/>
+<attribute name="VALUE" x="215.9" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="231.14" y="127" smashed="yes">
+<attribute name="VALUE" x="231.14" y="126.746" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -55725,6 +55783,11 @@ by default</text>
 <pinref part="IC2" gate="G$1" pin="VBAT"/>
 <wire x1="63.5" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <label x="66.04" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BAT1" gate="G$1" pin="BAT+"/>
+<wire x1="218.44" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
+<label x="208.28" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -55927,6 +55990,11 @@ by default</text>
 <wire x1="63.5" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="BAT1" gate="G$1" pin="BAT-"/>
+<wire x1="226.06" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL0" class="0">
