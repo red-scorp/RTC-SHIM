@@ -88,7 +88,7 @@ Features:
 
 - DS3231 RTC chip
 - double footprint for larger and smaller versions of the chip
-- CR2032 3V battery
+- CR2032/CR1220 3V battery
 - locked Pi headers
 - Pi zero board style
 - I2C0/I2C1 bus selection
