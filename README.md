@@ -107,14 +107,15 @@ Bill Of Materials is currently available only for LCSC Electronic Components Dis
 |------------|------------|----------------------|-------|
 |BAT1        |CR1220-2    |SMD                   |C70381 |
 |BAT2        |BS-8-1      |SMD                   |C70378 |
-|C1          |Cap. 100nF  |0402                  |C1525  |
-|C2          |Cap. 1uF    |0603                  |C15849 |
+|C1\*\*      |Cap. 100nF  |0402                  |C1525  |
+|C2\*\*      |Cap. 1uF    |0603                  |C15849 |
 |IC1\*       |DS3231SN#T&R|SOIC-16_300mil        |C9866  |
 |IC2\*       |DS3231MZ+TRL|SOIC-8_150mil         |C107410|
 |LIPO1, LIPO2|A1251WV-2P  |Through Hole,P=1.25mm |C225090|
-|R1, R2      |Res. 10K    |0402                  |C25744 |
+|R1, R2\*\*  |Res. 10K    |0402                  |C25744 |
 
 \*) Only one of chips should be installed, either IC1 or IC2.
+\*\*) These passive components are optional but it's recommended to install them.
 
 ## How to help
 
