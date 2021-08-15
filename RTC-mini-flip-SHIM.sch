@@ -28373,8 +28373,8 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <sheets>
 <sheet>
 <plain>
-<text x="256.54" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="198.12" y="7.62" size="2.54" layer="94">PI-RTCMS-0010</text>
+<text x="256.54" y="7.62" size="2.54" layer="94">1.1</text>
+<text x="198.12" y="7.62" size="2.54" layer="94">PI-RTCMS-0011</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">Double-mount RTC-mini-flip-SHIM for Pi's extension slot
 (c) Andriy Golovnya</text>
 <text x="45.72" y="127" size="2.54" layer="94">RTC chip</text>
