@@ -34,9 +34,9 @@ Raspberry Pi 40-pin **RTC-SHIM** mini-HAT.
 
 Preview:
 
-![RTC-SHIM preview](RTC-SHIM.png)
+![RTC-SHIM preview](img/RTC-SHIM.png)
 
-[Schematics in PDF format](RTC-SHIM.pdf)
+[Schematics in PDF format](doc/RTC-SHIM.pdf)
 
 Features:
 
@@ -57,9 +57,9 @@ Raspberry Pi **RTC-mini-flip-SHIM** micro-HAT.
 
 Preview:
 
-![RTC-mini-flip-SHIM preview](RTC-mini-flip-SHIM.png)
+![RTC-mini-flip-SHIM preview](img/RTC-mini-flip-SHIM.png)
 
-[Schematics in PDF format](RTC-mini-flip-SHIM.pdf)
+[Schematics in PDF format](doc/RTC-mini-flip-SHIM.pdf)
 
 Features:
 
@@ -80,9 +80,9 @@ Raspberry Pi zero 40-pin **RTC-zero-SHIM** mini-HAT.
 
 Preview:
 
-![RTC-zero-SHIM preview](RTC-zero-SHIM.png)
+![RTC-zero-SHIM preview](img/RTC-zero-SHIM.png)
 
-[Schematics in PDF format](RTC-zero-SHIM.pdf)
+[Schematics in PDF format](doc/RTC-zero-SHIM.pdf)
 
 Features:
 
