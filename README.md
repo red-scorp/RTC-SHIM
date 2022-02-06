@@ -19,13 +19,6 @@ I've searched Internet and found no solution which suits my needs.
 - The board should be easy to setup under Pi's Linux (like Raspbian or Ubuntu).
 - The board should be cheap to buy or/and easy to manufacture by (my) hand at home.
 
-Some useful links:
-
-- [pinout.xyz](https://pinout.xyz/) - a brilliant resource on topic of Pi's pinout and HATs.
-- [raspberrypi/hats](https://github.com/raspberrypi/hats) - Pi's HAT specification.
-- [RPI_RTC_Module_SKU:EP-0016](https://wiki.52pi.com/index.php/RPI_RTC_Module_SKU:EP-0016) - some RTC schematics and setup info.
-- [Raspberry Pi RTC: Adding a Real Time Clock](https://pimylifeup.com/raspberry-pi-rtc/) - RTC setup info.
-
 And gradually I came with few designs presented here.
 
 ## RTC-SHIM
@@ -116,6 +109,13 @@ Bill Of Materials is currently available only for LCSC Electronic Components Dis
 
 \*) Only one of chips should be installed, either IC1 or IC2.
 \*\*) These passive components are optional but it's recommended to install them.
+
+## Links
+
+- [pinout.xyz](https://pinout.xyz/) - a brilliant resource on topic of Pi's pinout and HATs.
+- [raspberrypi/hats](https://github.com/raspberrypi/hats) - Pi's HAT specification.
+- [RPI_RTC_Module_SKU:EP-0016](https://wiki.52pi.com/index.php/RPI_RTC_Module_SKU:EP-0016) - some RTC schematics and setup info.
+- [Raspberry Pi RTC: Adding a Real Time Clock](https://pimylifeup.com/raspberry-pi-rtc/) - RTC setup info.
 
 ## How to help
 
